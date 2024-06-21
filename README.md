@@ -2,18 +2,17 @@
 ### This Repo is intended to track my SQL Learning path using python
 
 ## Topics:
-1. Writing code using sqlite3 — DB-API 2.0 interface for SQLite databases
 
-2. Running DDL/DML statements on sqlite3
+1. Creating tables: ERD Diagrams
 
-3. SQL Built-in functions
+2. SQL Built-in functions
 
-4. Sub-queries and nested SELECTs
+3. Sub-queries and nested SELECTs
 
-5. Joins
+4. Joins
 
-6. Views
+5. Views
 
-7. Stored Procedures
+6. Stored Procedures
 
-8. ACID Transactions - Commit/Rollback
+7. ACID Transactions - Commit/Rollback
