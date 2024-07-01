@@ -66,7 +66,7 @@ SET leaders_Icon = 'Average'
 WHERE school_id = in_School_ID;
 ```
 
-Now, combining all this concepts, our [complete solution](Images_and_files\Stored_procedure_script.sql) to this problem should look like this:
+Now, combining all this concepts, our [complete solution](Images_and_files/Stored_procedure_script.sql) to this problem should look like this:
 
 ```
 -- Naming the procedure
@@ -124,11 +124,11 @@ Once you have run the above SQL Statement to create our stored procedure, the ne
 
 Now let's update the leaders_score and leaders_icon for the school_id **609720** that was initially set as shown below using our stored procedure:
 
-![Initial_score](Images_and_files\Initial.png)
+![Initial_score](Images_and_files/Initial.png)
 
 Calling our stored procedure and passing our parameters as:
 
 `CALL UPDATE_lEADERS_SCORE(609720, 74);`
 
 We have our values successfully updated as outlined in our IF-Statement:
-![Final_score](Images_and_files\Final.png)
+![Final_score](Images_and_files/Final.png)
